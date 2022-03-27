@@ -41,7 +41,7 @@ Gives the following output:
 
 Pokemon number containing "at" and two "a" in their names: 9 \
 The number of pokemon raichu can breed with is: 294 \
-Maximum and minimun weight of G1 fighting type pokemon: [1300, 195] \
+Maximum and minimun weight of G1 fighting type pokemon: [1300, 195] 
 
 Finally, you can run the unit tests by using python test_poke_api_function.py and check that 
 they are working correctly.
