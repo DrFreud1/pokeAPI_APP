@@ -1,4 +1,12 @@
 # Houm - Coding challenge
+The code in the present repository contains code that answers to the following requeriments:
+1. Obtén cuantos pokemones poseen en sus nombres “at” y tienen 2 “a” en su nombre, incluyendo la primera del “at”. Tu respuesta debe ser un número. 
+2. ¿Con cuántas especies de pokémon puede procrear raichu? (2 Pokémon pueden procrear si están dentro del mismo egg group). Tu respuesta debe ser un número. Recuerda eliminar los duplicados. 
+3. Entrega el máximo y mínimo peso de los pokémon de tipo fighting de primera generación (cuyo id sea menor o igual a 151). Tu respuesta debe ser una lista con el siguiente formato: [1234, 12], en donde 1234 corresponde al máximo peso y 12 al mínimo.
+
+You can find the answers and how to run the code at the bottom of this document.
+
+-----------------------------------------
 
 ## Solution Overview
 
@@ -36,12 +44,12 @@ install any missing dependencies.
 
 "poke_api_function.py" can be run from any console.
 
-Using console on Linux, by running: python poke_api_function.py
+Using console on Linux, by running: python poke_api_function.py \
 Gives the following output:
 
 Pokemon number containing "at" and two "a" in their names: 9 \
 The number of pokemon raichu can breed with is: 294 \
 Maximum and minimun weight of G1 fighting type pokemon: [1300, 195] 
 
-Finally, you can run the unit tests by using python test_poke_api_function.py and check that 
-they are working correctly.
+Finally, you can run the unit tests by using python test_poke_api_function.py 
+To check that they are working correctly.
