@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+firstQuestion.ipynb
+pokeAPI.ipynb
+secondQuestion.ipynb
+thirdQuestion.ipynb
